@@ -5,7 +5,7 @@ import pro3 from "../components/assets/project3.jpeg"
 const ProjectCardData = [
     {
        imgsrc:pro1,
-       title:"Ecommerce Website Design",
+       title:"Event Management",
        text:"Thriving Facebook community and top-ranked podcast, amy inspires a grounded, tangible and self-affirmi sense of wow really can do this  for over 100,000 online enrepreneur,Best-selling marketingCourses",
        view:"https://event-management-mern-client.vercel.app/",
        source:"https://github.com/Saurabhjaiswar05/EventManagment"

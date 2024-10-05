@@ -7,8 +7,8 @@ const ProjectCardData = [
        imgsrc:pro1,
        title:"Ecommerce Website Design",
        text:"Thriving Facebook community and top-ranked podcast, amy inspires a grounded, tangible and self-affirmi sense of wow really can do this  for over 100,000 online enrepreneur,Best-selling marketingCourses",
-       view:"/",
-       source:"/"
+       view:"https://event-management-mern-client.vercel.app/",
+       source:"https://github.com/Saurabhjaiswar05/EventManagment"
     },
     {
         imgsrc:pro2,

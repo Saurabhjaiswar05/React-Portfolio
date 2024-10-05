@@ -12,14 +12,14 @@ const ProjectCardData = [
     },
     {
         imgsrc:pro2,
-        title:"LMS/Course Website Design",
+        title:"Upcoming",
         text:"Thriving Facebook community and top-ranked podcast, amy inspires a grounded, tangible and self-affirmi sense of wow really can do this  for over 100,000 online enrepreneur,Best-selling marketingCourses",
         view:"/",
         source:"/"
      },
      {
         imgsrc:pro3,
-        title:"Rymo Ecommerce Design",
+        title:"Upcoming",
         text:"Thriving Facebook community and top-ranked podcast, amy inspires a grounded, tangible and self-affirmi sense of wow really can do this  for over 100,000 online enrepreneur,Best-selling marketingCourses",
         view:"/",
         source:"/"

@@ -3,6 +3,14 @@
     padding: 4rem 0 2rem 0;
 }
 
+
+/* created this scroll container */
+.scroll-container{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
 .project-container{
     max-width: 1140px;
     margin: auto;
@@ -10,7 +18,22 @@
     grid-template-columns: repeat(3,1fr);
     grid-gap: 40px;
     padding-bottom: 5rem;
+    animation: scroll 10s linear infinite; 
+    /* added animation line  */
 }
+
+/* crolling animation */
+
+@keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+
 
 .project-card{
     background: #1a1919;

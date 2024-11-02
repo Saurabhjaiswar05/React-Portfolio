@@ -9,6 +9,7 @@ const Work = () => {
   return (
     <div className='work-container'>
         <h1 className='project-heading'>Project</h1>
+        <div className='scroll-container'>
         <div className="project-container">
             {WorkCardData.map((val,ind) => {
                 return(
@@ -22,6 +23,7 @@ const Work = () => {
                      />
                 )
                 })}
+        </div>
         </div>
       
     </div>

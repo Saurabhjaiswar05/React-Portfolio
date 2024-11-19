@@ -3,6 +3,7 @@
     padding: 4rem 0 2rem 0;
 }
 
+
 /* created this scroll container */
 .scroll-container{
     overflow: hidden;
@@ -17,25 +18,59 @@
     grid-template-columns: repeat(3,1fr);
     grid-gap: 40px;
     padding-bottom: 5rem;
-    animation: scroll 10s linear infinite; /* added animation line */
+    animation: scroll 10s linear infinite; 
+    /* added animation line  */
 }
 
-/* scrolling animation */
+/* crolling animation */
+
 @keyframes scroll {
     0% {
-        transform: translateX(100%);
+      transform: translateX(100%);
     }
     100% {
-        transform: translateX(-100%);
+      transform: translateX(-100%);
     }
+  }
+
+
+
+.project-card{
+    background: #1a1919;
+    padding: 1.2rem 1rem;
 }
 
-/* Media query for small screens */
-@media screen and (max-width: 740px) {
+.project-card img{
+    width: 100%;
+    height: 200px;
+}
+
+.project-title{
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.project-card p{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.pro-btns{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    
+}
+.pro-btns .btn{
+    padding: 0.5rem 1rem;
+}
+
+@media screen and (max-width:740px) {
     .project-container{
         max-width: 90%;
         margin: auto;
         grid-template-columns: 1fr;
-        animation: none; /* Disable animation on small screens */
+        animation:none;
     }
 }

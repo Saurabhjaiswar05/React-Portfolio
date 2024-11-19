@@ -70,7 +70,7 @@
     .project-container{
         max-width: 90%;
         margin: auto;
-        grid-template-columns: 2fr;
+        grid-template-columns: 1fr;
         animation:none;
     }
 }

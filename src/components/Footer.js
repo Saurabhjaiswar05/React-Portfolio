@@ -40,10 +40,10 @@ const Footer = () => {
                     new projects and desing challenges.
                 </p>
                 <div className="social">
-                <FaGithub size={35} style={{color:"#fff", marginRight:"1rem"}}/>
-                <FaLinkedinIn size={35} style={{color:"blue", marginRight:"1rem"}}/>
-                <FaInstagram size={35} style={{color:"darkorange", marginRight:"1rem"}}/>
-                <FaWhatsapp size={35} style={{color:"green", marginRight:"1rem"}}/>
+                <FaGithub size={35} style={{color:"#fff", marginRight:"1rem", cursor: "pointer" }}/>
+                <FaLinkedinIn size={35} style={{color:"blue", marginRight:"1rem", cursor: "pointer"}}/>
+                <FaInstagram size={35} style={{color:"darkorange", marginRight:"1rem", cursor: "pointer" }}/>
+                <FaWhatsapp size={35} style={{color:"green", marginRight:"1rem", cursor: "pointer"}}/>
 
                 </div>
             </div>

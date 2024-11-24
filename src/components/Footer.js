@@ -40,12 +40,20 @@ const Footer = () => {
                     new projects and desing challenges.
                 </p>
                 <div className="social">
-                <FaGithub size={35} style={{color:"#fff", marginRight:"1rem", cursor: "pointer" }}/>
-                <FaLinkedinIn size={35} style={{color:"blue", marginRight:"1rem", cursor: "pointer"}}/>
-                <FaInstagram size={35} style={{color:"darkorange", marginRight:"1rem", cursor: "pointer" }}/>
-                <FaWhatsapp size={35} style={{color:"green", marginRight:"1rem", cursor: "pointer"}}/>
+    <a href="https://github.com" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+        <FaGithub size={35} style={{ color: "#fff", marginRight: "1rem", cursor: "pointer" }} />
+    </a>
+    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+        <FaLinkedinIn size={35} style={{ color: "blue", marginRight: "1rem", cursor: "pointer" }} />
+    </a>
+    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+        <FaInstagram size={35} style={{ color: "darkorange", marginRight: "1rem", cursor: "pointer" }} />
+    </a>
+    <a href="https://wa.me" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+        <FaWhatsapp size={35} style={{ color: "green", marginRight: "1rem", cursor: "pointer" }} />
+    </a>
+</div>
 
-                </div>
             </div>
         </div>
       

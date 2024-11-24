@@ -46,9 +46,9 @@ const Footer = () => {
                     <a href="https://www.linkedin.com/in/saurabh-jaiswar-/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
                         <FaLinkedinIn size={35} style={{ color: "blue", marginRight: "1rem", cursor: "pointer" }} />
                     </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                    
                         <FaInstagram size={35} style={{ color: "darkorange", marginRight: "1rem", cursor: "pointer" }} />
-                    </a>
+                    
                     <a href="https://wa.me/919967672613" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
                         <FaWhatsapp size={35} style={{ color: "green", marginRight: "1rem", cursor: "pointer" }} />
                     </a>

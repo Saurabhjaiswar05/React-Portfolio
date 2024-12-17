@@ -16,7 +16,7 @@
     margin: auto;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-gap: 40px;
+    grid-gap: 30px;
     padding-bottom: 5rem;
     animation: scroll 10s linear infinite; 
     /* added animation line  */

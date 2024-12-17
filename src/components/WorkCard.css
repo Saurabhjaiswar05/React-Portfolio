@@ -15,7 +15,7 @@
     max-width: 1140px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
     grid-gap: 40px;
     padding-bottom: 5rem;
     animation: scroll 10s linear infinite; 
@@ -64,6 +64,15 @@
 }
 .pro-btns .btn{
     padding: 0.5rem 1rem;
+}
+
+@media screen and (max-width:768px) {
+    .project-container{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 2fr;
+        animation:none;
+    }
 }
 
 @media screen and (max-width:768px) {

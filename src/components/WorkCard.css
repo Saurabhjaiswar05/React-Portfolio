@@ -33,6 +33,9 @@
     }
   }
 
+  .project-container:hover   {
+    animation-play-state: paused;
+  }
 
 
 .project-card{

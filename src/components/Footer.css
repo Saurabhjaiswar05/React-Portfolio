@@ -9,7 +9,7 @@
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 40px;
+    grid-gap: 20px;
 }
 
 .left{
@@ -18,6 +18,7 @@
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    padding-left: 100px;
 }
 
 .location{
@@ -35,6 +36,7 @@
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    padding-left: 150px;
 }
 
 .social{
@@ -53,5 +55,16 @@ p{
 @media screen and (max-width:640px) {
     .footer-container{
         grid-template-columns: 1fr;
+    }
+    .footer{
+        width: 100%;
+        padding:2.5rem 1.2rem;
+        background-color: rgba(19,19,19,0.8);
+    }
+    .left{
+        padding-left: 20px;
+    }
+    .right{
+        padding-left: 20px;
     }
 }

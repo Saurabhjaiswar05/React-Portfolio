@@ -32,6 +32,13 @@ const ProjectCardData = [
         text:"Elegance Softwares is a professional web development and design initiative that focuses on delivering responsive, dynamic, and user-friendly solutions to help businesses thrive in the digital world.",
         view:"https://elegance-software-mu.vercel.app/",
         source:"https://github.com/Saurabhjaiswar05/EleganceSoftware"
+     },
+    {
+        imgsrc:pro1,
+        title:"Elegance Real Estate",
+        text:"Elegance Real Estate offers a sleek platform for buying, selling, and renting premium properties with ease and expert guidance.",
+        view:"https://elegancerealestate.netlify.app/",
+        source:"https://github.com/Saurabhjaiswar05/Real-Estate"
      }
 ]
 

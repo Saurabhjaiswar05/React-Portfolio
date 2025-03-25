@@ -19,13 +19,13 @@ const ProjectCardData = [
         view:"https://mern-e-commerce-client-git-main-saurabhjaiswar05s-projects.vercel.app/",
         source:"https://github.com/Saurabhjaiswar05/MERN_E-COMMERCE_CLIENT"
      },
-     {
-        imgsrc:pro3,
-        title:"Upcoming",
-        text:"Thriving Facebook community and top-ranked podcast, amy inspires a grounded, tangible and self-affirmi sense of wow really can do this  for over 100,000 online enrepreneur,Best-selling marketingCourses",
-        view:"/",
-        source:"/"
-     },
+     // {
+     //    imgsrc:pro3,
+     //    title:"Upcoming",
+     //    text:"Thriving Facebook community and top-ranked podcast, amy inspires a grounded, tangible and self-affirmi sense of wow really can do this  for over 100,000 online enrepreneur,Best-selling marketingCourses",
+     //    view:"/",
+     //    source:"/"
+     // },
     {
         imgsrc:pro4,
         title:"Elegance Software",
